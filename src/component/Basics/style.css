@@ -1,15 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: "Nunito", sans-serif;
+  transition: all 1.02s;
+  scroll-behavior: smooth;
 }
 
 html {
   background: #faf7f2;
   background-image: url(https://s3.postimg.org/s1n3ji1ur/paper_fibers_2_X.png);
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
@@ -81,8 +85,8 @@ html {
 }
 
 .card-title {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 60px;
+  font-family: "Nunito", sans-serif;
+  font-size: 37px;
   font-weight: 300;
   line-height: 60px;
   margin: 10px 0;
